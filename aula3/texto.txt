@@ -7,3 +7,9 @@ EXERCICIO:
 6.5 - 9.4 -> APROVADO
 9.5 - 10 -> APROVADO C/ BOLSA
 
+
+
+fazer um algoritmo que diz se o aluno passou ou não, seguindo essas informações.
+
+* se o aluno atingiu a frequência mínima, o algoritmo segue dizendo se ele passou por nota ou não.
+* se não atingiu, o algoritmo reprova ele direto.
