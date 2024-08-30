@@ -1,0 +1,30 @@
+VALOR POR HORA: 8,00
+
+IR:
+- 900,00 - ISENTO
+- 1500,00 - 5% DESCONTO
+- 2500,00 - 10% DESCONTO
+
+3% SINDICATO
+
+INSS:
+- 1000,00 - 7% DESCONTO
+- 2000,00 - 9% DESCONTO
+- 3000,00 - 11% DESCONTO
+
+SAÍDA:
+SALÁRIO BRUTO
+(-) IR
+(-) SINDICATO
+(-) INSS
+(=) SALÁRIO LIQUIDO.
+
+
+--------------------------
+
+definir constantes: (EXEMPLO IR)
+define ('PRIMEIRA_FAIXA_IR', 5);
+define ('SEGUNDA_FAIXA_IR', 10);
+define ('PRIMEIRA_FAIXA_INSS', 7);
+define ('SEGUNDA_FAIXA_INSS', 9);
+define ('TERCEIRA_FAIXA_INSS', 11);
