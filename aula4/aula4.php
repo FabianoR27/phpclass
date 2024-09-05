@@ -1,7 +1,8 @@
 <?php 
     //SALÁRIO DO FULANO
     $salario_hora = 8.00;
-    $salario = ($salario_hora * 220);
+    $horas_trabalhadas = 220;
+    $salario = ($salario_hora * $horas_trabalhadas);
 
     // CALCULANDO IR
     if ($salario <= 900) {
