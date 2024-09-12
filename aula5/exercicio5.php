@@ -69,3 +69,18 @@
         }
         
     }
+
+    //numeros primos da forma do professor
+    for ($i = 1; $i <= 100; $i++) { 
+        $divisor = 0;
+
+        for ($x = $i; $x >= 1; $x--) { 
+            if ($i % $x == 0) {
+                $divisor += 1;
+            }
+        }
+
+        if ($divisor == 2) {
+            echo "eu $i";
+        }
+    }
