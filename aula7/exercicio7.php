@@ -17,7 +17,7 @@
             }
             $soma_numeros += $elementos;
         } else if (is_bool($elementos)){
-            $total_booleanos++;
+            $total_booleanos++; # ++ é sinal de incremento, nesse caso vai contar o numero de arrays correspondentes
         } else if (is_string($elementos)){
             $total_strings++;
         }
