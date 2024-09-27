@@ -1,0 +1,27 @@
+5 PESSOAS:
+- NOME
+- SEXO
+- SALARIO
+- CLASSIFICAÇÃO (A,B,OU C)
+- ESTADO
+
+-----------------------------
+
+RELATÓRIOS:
+1 - EXIBIR DADOS POR SEXO;
+2 - EXIBIR DADOS C/ REAJUSTE SALARIAL;
+
+-----------------------------
+
+ARRAY SEPARADOS POR:
+1 - SEXO;
+2 - CLASSIFICAÇÃO;
+3 - ESTADO E CLASSIFICAÇÃO 'A'
+
+
+----------------------------
+
+a -20%
+B -15%
+C -10%
+
