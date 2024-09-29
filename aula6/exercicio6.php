@@ -4,9 +4,9 @@
     //exercício 1
     echo '<h1>NÚMEROS PARES:</h1>';
     $i = 0;
-    while ($i <= 100) {
-        echo "valor = $i <br>";
+    while ($i < 100) {
         $i = $i + 2;
+        echo "valor = $i <br>";
     }
     echo "<br>";
     echo "<hr>";
@@ -15,9 +15,25 @@
 
     //exercicio 2
     echo '<h1>NÚMEROS PRIMOS:</h1>';
-    $i = 0;
-    $n = 0;
-    $d = 0;
+    $n = 2; //inicia o contador
+
+    while ($n <= 100) {
+        $d = 0; //variavel para contar divisores
+
+        $i = 1; //inicializa o contador para verificar divisibilidade
+
+        while ($i <= $n) {
+            if ($n % $i == 0) {
+                $d ++;
+            }
+            $i ++;
+        }
+
+        if ($d == 2) {
+            echo $n . " ";
+        }
+        $n ++; // incrementa para verificar o proximo numero
+    }
 
 
 
@@ -32,9 +48,11 @@
     $a = 4;
     $soma = 0;
     while ($a <= 533) {
-        echo "valor = $soma <br>";
         $soma += $a  ++;
     }
+    echo "valor = $soma <br>";
+
+    
     echo "<br>";
     echo "<hr>";
     echo "<br>";
@@ -55,8 +73,8 @@
             $i = $i +1;
             $resultado = $i * $n;
             echo "$i x $n = $resultado<br>";
-            
-        }        
+
+        }
         
         echo "<br>";
         echo "<hr>";
