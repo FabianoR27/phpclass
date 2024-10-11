@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>AULA 9</title>
+</head>
+<body>
+    <form action="gravar.php" method="post"> <!--atributos de formulario: ACTION e METHOD-->
+        <!--o metodo POST não tem limite de dados, diferentemente do GET-->
+        <label for="nome">Nome</label>
+            <input type="text" name="nome" id="idnome"> <!--ID É MAIS USADO PARA JAVASCRIPT, E O NAME PARA PHP. -->
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="idsobrenome">
+            <label for="idade">Sua idade</label>
+            <input type="number" name="idade" id="idade">
+
+            <input type="submit" value="Enviar">
+            <!-- <button type="button">gravar</button> --><!--com o button, eu consigo customizar o botão-->
+
+    </form>
+</body>
+</html>
