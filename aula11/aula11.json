@@ -1,0 +1,85 @@
+[
+    {
+        "nome": "João",
+        "codigo": 3456,
+        "salario": 3560.90,
+        "casado": true,
+        "linguagens_de_programacao": [
+            "JS",
+            "PHP",
+            "PYTHON",
+            "C#"
+        ],
+        "escolaridade": [
+            {
+                "curso": "TÉCNICO EM INFORMÁTCA",
+                "ano_conclusao": 2010
+            },
+            {
+                "curso": "FACULDADE DE REDES",
+                "ano_conclusao": 2015
+            },
+            {
+                "curso": "PÓS-GRADUAÇÃO",
+                "ano_conclusao": 2017
+            }
+        ],
+        "endereco": "Rua dos bobos",
+        "numero": "0"
+    },
+
+    {
+        "nome": "Maria",
+        "codigo": 3499,
+        "salario": 3460.90,
+        "casado": false,
+        "linguagens_de_programacao": [
+            "JS",
+            "PHP",
+            "PYTHON",
+            "C#"
+        ],
+        "escolaridade": [
+            {
+                "curso": "TÉCNICO EM INFORMÁTCA",
+                "ano_conclusao": 2010
+            },
+            {
+                "curso": "FACULDADE DE REDES",
+                "ano_conclusao": 2015
+            },
+            {
+                "curso": "PÓS-GRADUAÇÃO",
+                "ano_conclusao": 2017
+            }
+        ],
+        "endereco": "Rua das Oliveiras",
+        "numero": "770"
+    },
+    {
+        "nome": "Fabiano",
+        "codigo": 3333,
+        "salario": 5460.90,
+        "casado": false,
+        "linguagens_de_programacao": [
+            "JS",
+            "PHP"
+        ],
+        "escolaridade": [
+            {
+                "curso": "TÉCNICO EM CONTABILIDADE",
+                "ano_conclusao": 2017
+            },
+            {
+                "curso": "TÉCNICO EM ADMINISTRAÇÃO",
+                "ano_conclusao": 2020
+            },
+            {
+                "curso": "GRADUAÇÃO EM SISTEMAS PARA INTERNET",
+                "ano_conclusao": 2026
+            }
+        ],
+        "endereco": "Rua do Seu Barriga",
+        "numero": "8"
+    }
+]

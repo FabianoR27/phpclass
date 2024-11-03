@@ -1,0 +1,1 @@
+<h1>Data de hoje: <?= date ('d/ m/ y') ?> </h1>

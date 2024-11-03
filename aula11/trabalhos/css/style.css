@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+footer {
+    background-color: #273b4a;
+    color: #ffffff;
+}
+
+/* removendo a barra de rolagem da lista de animes*/
+.overflow-x-scroll{
+    scrollbar-width: none;
+}
+
+/* posicionando e estilizando os botões de rolagem da lista de animes*/
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 2.5em;
+    color: white;
+    height: 50%;
+    transition: ease .1s;
+    border-radius: 100%; /*arredondamento da caixa para sombreamento*/
+    background-color: #00000030; /* deixa a cor do container do botão quase transparente */
+    box-shadow: 0px 0px 50px 50px #00000030; /* sombra no container do botão para destacar */
+}
+
+.scroll-button i {
+    border-radius: 100%; /*arredondamento da caixa para sombreamento*/
+    background-color: #00000028; /* deixa a cor da caixa do botão quase transparente*/
+    box-shadow: 0px 0px 20px 10px #00000030; /* sobra no botão para mais destaque*/
+}
+
+.scroll-button:hover {
+    font-size: 3em;
+    background-color: #00000050; /* deixa a cor do container do botão quase transparente */
+    box-shadow: 0px 0px 50px 50px #00000050; /* sombra no container do botão para destacar */
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+.scroll-button.right {
+    right: 10px;
+}
+
+/* aplicando o efeito de zoom e brilho nos banners dos animes ao passar o mouse*/
+.zoom-img img{
+    transition: transform ease .1s, filter ease .5s;
+}
+
+.zoom-img:hover img{
+    transform: scale(1.02);
+    filter: brightness(0.7);
+}
+
+/* aplicando cores nos ícones das redes sociais */
+.bi-instagram {
+    font-size: 40px;
+    color: rgb(255, 48, 108);
+}
+
+.bi-threads{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.bi-facebook {
+    font-size: 40px;
+    color: rgb(17,120,242);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bordas {
+    border: solid 2px #000000;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
