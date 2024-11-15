@@ -39,7 +39,7 @@
     $dados = [
         'nome' => $nome,
         'sobrenome' => $sobrenome, 
-        'idade' => $idade, 
+        'idade' => (int) $idade, 
         'email' => $email,
     ];
 
