@@ -19,25 +19,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>lista de arquivos</title>
+    <title>HISTORICO DE CALCULOS</title>
 </head>
 <body>
-    <h1>LISTA DE ARQUIVOS <?= date('d/m/Y') ?></h1>
-    <hr>
-    <?php 
+    <main>
 
-    $pasta = './teste';
+        <h1>HISTÓRICO DE CALCULOS</h1>
+        <hr>
+        <?php 
 
-    //1- abrir o diretório = Pasta
-    $arquivos = opendir($pasta);
-    
-    ?>
+$pasta = './historico';
+
+//1- abrir o diretório = Pasta
+$arquivos = opendir($pasta);
+
+?>
     <table>
         <thead>
             <tr>
-                <td>Nome</td>
-                <td>Sobrenome</td>
-                <td>Ver detalhes</td>
+                <td>NUMERO 1</td>
+                <td>OPERAÇÃO</td>
+                <td>NUMERO 2</td>
+                <td>RESULTADO</td>
+                <td>ARQUIVO DE CALCULO</td>
+
             </tr>
         </thead>
         <tbody>
@@ -47,14 +52,16 @@
                 while ($arquivo = readdir($arquivos)) {
                     if ($arquivo != '.' && $arquivo != '..') {
 
-                        $caminho = './teste/' . $arquivo;
+                        $caminho = './historico/' . $arquivo;
                         $dados = lerArquivo($caminho);
-
+                        
                         $html .= "<tr>
-                                    <td>$dados->nome</td>
-                                    <td>$dados->sobrenome</td>
-                                    <td><a href='ler.php?file=$arquivo' target='_blank'>$arquivo</a></td>
-                                </tr>";
+                        <td>$dados->numero1</td>
+                        <td>$dados->operacao</td>
+                        <td>$dados->numero2</td>
+                        <td>$dados->resultado</td>
+                        <td><a href='leitura.php?file=$arquivo'>Exibir detalhes</a></td>
+                        </tr>";
                     }
                 }
                 echo $html;
@@ -65,5 +72,8 @@
         </tbody>
     </table>
 
+    <a href="index.html">Volte para a calculadora</a>
+</main>
+    
 </body>
 </html>
