@@ -1,0 +1,12 @@
+PROVA PRÁTICA DE PHP
+PROGRAMA DESENVOLVIDO: CALCULADORA COM HISTÓRICO.
+
+REQUISITOS FUNCIONAIS:
+1- Uma página para efetuar cálculos com as quatro operações matemáticas;
+2- Validar o preenchimento obrigatório dos campos, exibindo mensagens de erro, não deixando efetuar a operação;
+3- Operações matemáticas que resultem em números negativos devem exibir uma mensagem na tela, avisando sobre o resultado negativo, além do resultado em si;
+4- Todos os cálculos e resultados devem ser gravados (individualmente) em arquivos no formato .json;
+5- Uma página deve exibir em tabela HTML  o histórico de calculos, operações e resultados das operações anteriores (estrutura da tabela: números da operação, resultado e link do arquivo);
+6- Após a gravação da operação, o usuário deve ser direcionado para a tebela de histórico automaticamente;
+7- A tabela deve possuir um botão "exibir" e, quando clicado, deve direcionar para uma página exibindo os detalhes gravados no arquivo;
+8- A página com a tabela HTML deve possuir um link para a página de cálculos.
